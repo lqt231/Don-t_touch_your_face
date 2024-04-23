@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 14, 14);
+  min-height: 750px;
+}
+
+.main.touched {
+  background-color: red;
+}
+
+.head-title {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.4;
+  color:#fff;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+#message {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+#message2 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.video {
+  width: 480px;
+  height: 360px;
+  background-color: #333;
+  margin-bottom: 50px;
+}
+
+.control {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 1.4rem;
+  background-color: #2196F3;
+  border: none;
+  color: #fff;
+  margin: 0 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn:hover { 
+  opacity: 0.8;
+}
